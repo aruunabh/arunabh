@@ -85,6 +85,7 @@ canvas{
     color: #dcd4c0;
 }
 #nav>button{
+    position: relative;
     padding: 10px 30px;
     border-radius: 50px;
     background-color: #000;
@@ -104,6 +105,7 @@ canvas{
     padding: 0px 30px;
 }
 #nav2>button{
+    position: relative;
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #000;
