@@ -84,12 +84,19 @@ canvas{
     font-size: 22px;
     color: #dcd4c0;
 }
-
+#nav>button{
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #dcd4c0;
+    border: none;
+    font-family: Gilroy;
 }
 #nav2{
     display: flex;
     align-items: center;
-    left: 87%;
+    left: 80%;
     justify-content: space-between;
     height: 7%;
     width: 100%;
