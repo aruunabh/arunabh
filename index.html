@@ -8,15 +8,69 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 
+<style>
+.bdonation {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 500;
+    color: #dcd4c0;
+    border: none;
+    font-family: Gilroy;
+}
+.bdonation span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bdonation span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bdonation:hover span {
+  padding-right: 25px;
+}
+
+.bdonation:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+  .bsocials {
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #dcd4c0;
+    border: none;
+    font-family: Gilroy;
+    font-style: italic;
+    text-decoration: none;
+    left: 10%;
+
+}
+
+</style>
 </head>
 <body>
     <div id="nav">
         <h3><b>ARUNABH</b>ADITYA</h3>
-        <button><i>socials</i></button>
+        <a href="aruunabh.github.io" class="bsocials" <i>socials</i> </a> 
         </div>
     <div id="nav2">
-        <button>buy me a coffee</b></button>
-        <a href="https://www.buymeacoffee.com/aruunabh"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=aruunabh&button_colour=ffefc2&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+        <a href="https://www.buymeacoffee.com/aruunabh" class="bdonation"> <span> buy me a coffee. </span> </a>
+        <!--<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=aruunabh&button_colour=ffefc2&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>-->
     </div>
 
     <div id="main">
@@ -42,7 +96,7 @@
                     LEARNING SKILLS. <br>
                     CHASING DREAMS.  <br>
                 </h1>
-                <h3>A HUGE CAT LOVER.</h3>
+                <h3></h3>
 
             </div>
         </div>
