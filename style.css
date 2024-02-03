@@ -96,7 +96,7 @@ canvas{
 #nav2{
     display: flex;
     align-items: center;
-    left: 80%;
+    left: 87%;
     justify-content: space-between;
     height: 7%;
     width: 100%;
@@ -109,11 +109,12 @@ canvas{
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #000;
-    font-weight: 600;
+    font-weight: 500;
     color: #dcd4c0;
     border: none;
     font-family: Gilroy;
 }
+
 #page>h3{
     position: absolute;
     top: 74%;
